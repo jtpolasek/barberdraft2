@@ -29,6 +29,11 @@ body {
     min-height: 700px; }
   #home-section .home-inner {
     padding-top: 150px; }
+    #home-section .home-inner .address {
+      margin-top: 25vh; }
+    #home-section .home-inner .btn {
+      opacity: 0.8;
+      font-size: 1.5em; }
   #home-section .card-form {
     opacity: 0.8; }
   #home-section .fa {
