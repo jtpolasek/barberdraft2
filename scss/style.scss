@@ -39,7 +39,7 @@ body{
     top:0;
     bottom:0;
     width:100%;
-    min-height: 700px;
+    min-height: 705px;
   }
   .home-inner{
     padding-top:150px;
@@ -66,6 +66,11 @@ body{
 
 #hero-title{
   min-width: 300px;
+}
+
+#menu-head-section{
+  background-image: url('../img/paper_3.png');
+  color: rgba(41, 39, 39, 0.86);
 }
 
 .menu-list li{
