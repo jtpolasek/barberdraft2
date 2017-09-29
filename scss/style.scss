@@ -1,7 +1,7 @@
 $bg-color: #333;
 $font-color:#fff;
 $primary-color:#008ed6;
-$dark-overlay: rgba(0,0,0,0.5);
+$dark-overlay: rgba(0,0,0,0.3);
 $font-size: 30px;
 $font-family: 'typewriter';
 
@@ -58,4 +58,8 @@ body{
 
 #hero-title{
   min-width: 300px;
+}
+
+.menu-list li{
+  list-style: none;
 }
