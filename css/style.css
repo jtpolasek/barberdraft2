@@ -55,7 +55,5 @@ body {
 .bio {
   font-family: 'Times New Roman', Times, serif; }
 
-img.img-fluid {
+.img-fluid {
   border-radius: 6px; }
-  img.img-fluid .pic {
-    border-radius: 6px; }
