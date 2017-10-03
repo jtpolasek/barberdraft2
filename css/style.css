@@ -51,3 +51,11 @@ body {
 
 .menu-list li {
   list-style: none; }
+
+.bio {
+  font-family: 'Times New Roman', Times, serif; }
+
+img.img-fluid {
+  border-radius: 6px; }
+  img.img-fluid .pic {
+    border-radius: 6px; }
