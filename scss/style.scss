@@ -1,7 +1,7 @@
 $bg-color: #333;
 $font-color:#D6CFCF;
 $primary-color:#008ed6;
-$dark-overlay: rgba(0,0,0,0.1);
+$dark-overlay: rgba(0,0,0,0.3);
 $font-size: 30px;
 $font-family: 'typewriter';
 
@@ -64,6 +64,23 @@ body{
   }
 }
 
+// .carousel-item{
+//   height:450px;
+// }
+
+// .carousel-image-1{
+//   background:url('../img/razor.jpg');
+//   background-size: cover;
+// }
+// .carousel-image-2{
+//   background:url('../img/barbertools.jpg');
+//   background-size: cover;
+// }
+// .carousel-image-3{
+//   background:url('../img/polebw.jpg');
+//   background-size: cover;
+// }
+
 #hero-title{
   min-width: 300px;
 }
@@ -81,7 +98,75 @@ body{
   font-family: 'Times New Roman', Times, serif;
 }
 
-.img-fluid{
-  border-radius:6px;
+#about-img{
+
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
   
+}
+
+#quote-1{
+  position: relative;
+  min-height: 400px;
+  background:url('../img/tools.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color:#fff;
+}
+
+.dark-overlay-tools{
+  background-color: $dark-overlay;
+  position: absolute;
+  top:0;
+  bottom:0;
+  width:100%;
+  min-height: 400px;
+}
+
+#about-head-section{
+  background-image: url('../img/paper_3.png');
+  color: rgba(41, 39, 39, 0.86);
+}
+
+#quote2-heading{
+  position: relative;
+  min-height: 400px;
+  background:url('../img/michael.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color:#fff;
+
+  
+}
+
+.dark-overlay-quote2{
+  background-color: $dark-overlay;
+  position: absolute;
+  top:0;
+  bottom:0;
+  width:100%;
+  min-height: 400px;
+}
+
+#quote3{
+  position: relative;
+  min-height: 200px;
+  background:url('../img/polebw.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color:#fff;
+}
+
+.dark-overlay-quote3{
+  background-color: $dark-overlay;
+  position: absolute;
+  top:0;
+  bottom:0;
+  width:100%;
+  min-height: 200px;
 }
