@@ -5,7 +5,6 @@
   font-style: normal; }
 
 body {
-  background: #333;
   color: #D6CFCF;
   font-family: "typewriter"; }
 
@@ -25,7 +24,7 @@ body {
     top: 0;
     bottom: 0;
     width: 100%;
-    min-height: 700px; }
+    max-height: 700px; }
   #home-section .home-inner {
     padding-top: 150px; }
     #home-section .home-inner .address {
@@ -60,7 +59,7 @@ body {
 
 #quote-1 {
   position: relative;
-  min-height: 400px;
+  min-height: 500px;
   background: url("../img/tools.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -74,7 +73,7 @@ body {
   top: 0;
   bottom: 0;
   width: 100%;
-  min-height: 400px; }
+  min-height: 500px; }
 
 #about-head-section {
   background-image: url("../img/paper_3.png");
@@ -82,7 +81,7 @@ body {
 
 #quote2-heading {
   position: relative;
-  min-height: 400px;
+  min-height: 500px;
   background: url("../img/michael.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -96,12 +95,12 @@ body {
   top: 0;
   bottom: 0;
   width: 100%;
-  min-height: 400px; }
+  min-height: 500px; }
 
 #quote3 {
   position: relative;
-  min-height: 200px;
-  background: url("../img/polebw.jpg");
+  min-height: 600px;
+  background: url("../img/oldbarb.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
@@ -114,4 +113,8 @@ body {
   top: 0;
   bottom: 0;
   width: 100%;
-  min-height: 200px; }
+  min-height: 600px; }
+
+#location-head-section {
+  background-image: url("../img/paper_3.png");
+  color: rgba(41, 39, 39, 0.86); }
