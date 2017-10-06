@@ -96,13 +96,18 @@ html, body{
   color: rgba(41, 39, 39, 0.86);
 }
 
-.menu-list li{
-  list-style: none;
+.menu-list{
+  padding-left: 20px;
+  padding-top:10px;
+   li{
+     list-style: none;
+   }
 }
 
-.bio{
-  font-family: 'Times New Roman', Times, serif;
-}
+
+// .bio{
+//   font-family: 'Times New Roman', Times, serif;
+// }
 
 #about-img{
 

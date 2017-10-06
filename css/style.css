@@ -51,11 +51,11 @@ html, body {
   background-image: url("../img/paper_3.png");
   color: rgba(41, 39, 39, 0.86); }
 
-.menu-list li {
-  list-style: none; }
-
-.bio {
-  font-family: 'Times New Roman', Times, serif; }
+.menu-list {
+  padding-left: 20px;
+  padding-top: 10px; }
+  .menu-list li {
+    list-style: none; }
 
 #about-img {
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5); }
