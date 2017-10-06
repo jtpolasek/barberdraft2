@@ -4,9 +4,12 @@
   font-weight: normal;
   font-style: normal; }
 
-body {
+html, body {
   color: #D6CFCF;
-  font-family: "typewriter"; }
+  font-family: "typewriter";
+  overflow-x: hidden;
+  max-width: 1080px;
+  margin: 0 auto; }
 
 .navbar {
   opacity: 0.8; }
@@ -59,13 +62,15 @@ body {
 
 #quote-1 {
   position: relative;
-  min-height: 500px;
+  min-height: 450px;
   background: url("../img/tools.jpg");
-  background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 50% 70%;
   text-align: center;
   color: #fff; }
+
+.quote1-text {
+  margin-top: 10%; }
 
 .dark-overlay-tools {
   background-color: rgba(0, 0, 0, 0.3);
@@ -73,7 +78,7 @@ body {
   top: 0;
   bottom: 0;
   width: 100%;
-  min-height: 500px; }
+  max-height: 450px; }
 
 #about-head-section {
   background-image: url("../img/paper_3.png");
@@ -82,10 +87,10 @@ body {
 #quote2-heading {
   position: relative;
   min-height: 500px;
-  background: url("../img/michael.jpg");
+  background: url("../img/chair.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center top;
   text-align: center;
   color: #fff; }
 
@@ -96,6 +101,9 @@ body {
   bottom: 0;
   width: 100%;
   min-height: 500px; }
+
+.quote2-text {
+  margin-top: 10%; }
 
 #quote3 {
   position: relative;
