@@ -82,10 +82,10 @@ html, body {
 
 .menu-list {
   padding-top: 10px;
-  padding-left: 10px; }
+  padding-left: 10vw; }
   .menu-list li {
     list-style: none;
-    font-size: 1.2em; }
+    font-size: 1.1em; }
 
 #about-img {
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5); }
