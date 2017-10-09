@@ -14,6 +14,7 @@ $font-family: 'typewriter';
   font-style: normal;
 }
 
+
 html, body{
  // background: $bg-color;
   color:$font-color;
@@ -25,9 +26,15 @@ html, body{
 
 }
 
-.navbar{
-  opacity:0.8;
- 
+.navbar, {
+  font-size: 1.2em;
+  background-color: rgba(0,0,0,0.2);
+  
+  navbar-dark, navbar-nav {
+    font-size: 1.1em;
+    color:#fff;
+  }
+
 }
 
 #home-section{
@@ -36,7 +43,9 @@ html, body{
   background-attachment:fixed;
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 700px;
+  min-height: 715px;
+  text-align: center;
+  
 
 
   .dark-overlay{
@@ -45,10 +54,14 @@ html, body{
     top:0;
     bottom:0;
     width: 100%;
-    max-height: 700px;
+    max-width: 1080px;
+    max-height: 715px;
+    
+    
   }
   .home-inner{
     padding-top:150px;
+   
     .address{
       margin-top: 25vh;
     }
@@ -70,22 +83,30 @@ html, body{
   }
 }
 
-// .carousel-item{
-//   height:450px;
-// }
+.carousel-item{
+  height:400px;
+}
 
-// .carousel-image-1{
-//   background:url('../img/razor.jpg');
-//   background-size: cover;
-// }
-// .carousel-image-2{
-//   background:url('../img/barbertools.jpg');
-//   background-size: cover;
-// }
-// .carousel-image-3{
-//   background:url('../img/polebw.jpg');
-//   background-size: cover;
-// }
+.carousel-image-1{
+  background:url('../img/hair1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.carousel-image-2{
+  background:url('../img/hair2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.carousel-image-3{
+  background:url('../img/hair3.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.carousel-image-4{
+  background:url('../img/hair4.jpg');
+  background-size: cover;
+  background-position: center;
+}
 
 #hero-title{
   min-width: 300px;
@@ -102,7 +123,7 @@ html, body{
   
    li{
      list-style: none;
-     font-size: 1.4em;
+     font-size: 1.2em;
    }
 }
 
@@ -133,7 +154,7 @@ html, body{
 }
 
 .dark-overlay-tools{
-  background-color: $dark-overlay;
+  background-color: rgba(0,0,0,0.5);
   position: absolute;
   top:0;
   bottom:0;
@@ -160,7 +181,7 @@ html, body{
 }
 
 .dark-overlay-quote2{
-  background-color: $dark-overlay;
+  background-color: rgba(0,0,0,0.5);
   position: absolute;
   top:0;
   bottom:0;
