@@ -64,7 +64,7 @@ html, body{
    
     .address{
       margin-top: 20vh;
-      border: 3px solid red;
+
     }
     .btn{
       opacity: 0.8;
@@ -72,23 +72,34 @@ html, body{
     }
     
   }
-
   .address-box{
     padding-bottom:25px;
- 
-  }
-  .card-form{
-    opacity:0.8;
-  }
-  .fa{
-    color:$primary-color;
-    background:#fff;
-    padding: 4px;
-    border-radius: 5px;
-    font-size:$font-size;
+    
   }
 }
 
+.card-one {
+  background-image: url('../img/paper_3.png');
+ 
+}
+.emerge-quote{
+  text-align: center;
+  margin: 0 auto;
+  width: 95%;
+  color: $bg-color;
+  
+  
+  box-shadow: 1px 5px 5px 5px rgba(0, 0, 0, 0.3);
+  
+}
+
+.fa{
+  color:$primary-color;
+  background:#fff;
+  padding: 4px;
+  border-radius: 5px;
+  font-size:$font-size;
+}
 .carousel-item{
   height:400px;
 }
