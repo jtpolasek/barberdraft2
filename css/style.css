@@ -37,7 +37,8 @@ html, body {
   #home-section .home-inner {
     padding-top: 150px; }
     #home-section .home-inner .address {
-      margin-top: 20vh; }
+      margin-top: 20vh;
+      border: 3px solid red; }
     #home-section .home-inner .btn {
       opacity: 0.8;
       font-size: 1.5em; }
