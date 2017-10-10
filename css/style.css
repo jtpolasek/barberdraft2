@@ -41,6 +41,8 @@ html, body {
     #home-section .home-inner .btn {
       opacity: 0.8;
       font-size: 1.5em; }
+  #home-section .address-box {
+    padding-bottom: 25px; }
   #home-section .card-form {
     opacity: 0.8; }
   #home-section .fa {
