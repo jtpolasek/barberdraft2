@@ -87,9 +87,9 @@ html, body{
   margin: 0 auto;
   width: 95%;
   color: $bg-color;
+   
   
-  
-  box-shadow: 1px 5px 5px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 5px 5px 1px rgba(0, 0, 0, 0.3);
   
 }
 
@@ -151,7 +151,7 @@ html, body{
 
 #about-img{
 
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 5px 5px 1px rgba(0, 0, 0, 0.5);
   
 }
 
