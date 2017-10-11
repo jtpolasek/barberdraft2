@@ -13,13 +13,13 @@ html, body {
 
 .navbar {
   font-size: 1.2em;
-  background-color: rgba(0, 0, 0, 0.2); }
+  background-color: rgba(0, 0, 0, 0.3); }
   .navbar navbar-dark, .navbar navbar-nav {
     font-size: 1.1em;
     color: #fff; }
 
 #home-section {
-  background-image: url("../img/razorbw.jpg");
+  background-image: url("../img/razor.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -27,7 +27,7 @@ html, body {
   min-height: 700px;
   text-align: center; }
   #home-section .dark-overlay {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.1);
     position: absolute;
     top: 0;
     bottom: 0;
@@ -104,7 +104,7 @@ html, body {
 #quote-1 {
   position: relative;
   min-height: 450px;
-  background: url("../img/tools.jpg");
+  background: url("../img/toolsnapa.jpg");
   background-repeat: no-repeat;
   background-position: 50% 70%;
   text-align: center;
@@ -157,7 +157,7 @@ html, body {
   color: #fff; }
 
 .dark-overlay-quote3 {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.1);
   position: absolute;
   top: 0;
   bottom: 0;
