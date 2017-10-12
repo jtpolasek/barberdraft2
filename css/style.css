@@ -5,6 +5,7 @@
   font-style: normal; }
 
 html, body {
+  background: #333;
   color: #D6CFCF;
   font-family: "typewriter";
   overflow-x: hidden;
