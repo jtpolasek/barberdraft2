@@ -1,5 +1,5 @@
 $bg-color: #000;
-$font-color:rgb(243, 234, 234);
+$font-color:rgb(247, 243, 243);
 $primary-color:#008ed6;
 $dark-overlay: rgba(0,0,0,0.1);
 $font-size: 30px;
@@ -44,7 +44,7 @@ html, body{
   background-attachment:fixed;
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 700px;
+  min-height: 100vh;
   text-align: center;
   
 
@@ -56,7 +56,7 @@ html, body{
     bottom:0;
     width: 100%;
     max-width: 1080px;
-    max-height: 700px;
+    max-height: 100vh;
     
     
   }
@@ -84,9 +84,6 @@ html, body{
  
 }
 
-.card-img-top{
-  max-height: 450px;
-}
 
 
 .emerge-quote{
@@ -149,10 +146,6 @@ html, body{
    }
 }
 
-
-// .bio{
-//   font-family: 'Times New Roman', Times, serif;
-// }
 
 #about-img{
 
@@ -240,24 +233,6 @@ html, body{
   color: rgba(41, 39, 39, 0.86);
 }
 
-// .typewriter{
-//   overflow: hidden; /* Ensures the content is not revealed until the animation */
-//   //border-right: .15em solid orange; /* The typwriter cursor */
-//   white-space: nowrap; /* Keeps the content on a single line */
-//   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-//   letter-spacing: .15em; /* Adjust as needed */
-//   animation: 
-//     typing 3.5s steps(40, end)
-   
-// }
-
-// /* The typing effect */
-// @keyframes typing {
-//   from { width: 0 }
-//   to { width: 100% }
-// }
-
-.read-more{
-  overflow: hidden;
-  max-height: 24em;
+#main-footer {
+  background-color: #000;
 }
