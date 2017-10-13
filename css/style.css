@@ -5,8 +5,8 @@
   font-style: normal; }
 
 html, body {
-  background: #333;
-  color: #D6CFCF;
+  background: #000;
+  color: #f3eaea;
   font-family: "typewriter";
   overflow-x: hidden;
   max-width: 1080px;
@@ -48,11 +48,14 @@ html, body {
 .card-one {
   background-image: url("../img/paper_3.png"); }
 
+.card-img-top {
+  max-height: 450px; }
+
 .emerge-quote {
   text-align: center;
   margin: 0 auto;
-  width: 95%;
-  color: #333;
+  width: 100%;
+  color: #000;
   box-shadow: 1px 5px 5px 1px rgba(0, 0, 0, 0.3); }
 
 .fa {
