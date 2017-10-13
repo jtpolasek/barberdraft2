@@ -168,3 +168,7 @@ html, body {
 #location-head-section {
   background-image: url("../img/paper_3.png");
   color: rgba(41, 39, 39, 0.86); }
+
+.read-more {
+  overflow: hidden;
+  max-height: 24em; }

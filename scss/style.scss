@@ -252,3 +252,8 @@ html, body{
 //   from { width: 0 }
 //   to { width: 100% }
 // }
+
+.read-more{
+  overflow: hidden;
+  max-height: 24em;
+}
