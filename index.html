@@ -46,7 +46,7 @@
           <div class="row">
             <div class="col text-center">
               <div class="d-flex flex-column no-wrap  align-items-center  justify-content-center ">
-                <h1 class="display-4  text-center type-it" id="hero-title">Frank's<br> Barber<br> Shop</h1>
+                <h1 class="display-4  text-center type-it-title" id="hero-title">Frank's<br> Barber<br> Shop</h1>
               </div>
             </div>
           </div>
@@ -56,8 +56,8 @@
             <div class="row ">
               <div class="col text-center">
                 <div class="address-box">
-                  <h1 class="h2">925-555-3456</h1>
-                  <p class="lead">1212 Danville Blvd, Danville</p>
+                  <h1 class="h2 type-it-phone">925-555-3456</h1>
+                  <p class="lead type-it-phone">1212 Danville Blvd, Danville</p>
                   <a href="https://www.schedulicity.com/scheduling/mmqeml" class="btn btn-light btn-xlg btn-block">Book Now</a>
                 </div>
               </div>
@@ -334,7 +334,13 @@
   <script  src="https://cdn.jsdelivr.net/npm/typeit@4.4.1/dist/typeit.min.js"></script>
   <script src="typeit.js"></script>
   <script>
-    $('.type-it').typeIt({
+    $('.type-it-title').typeIt({
+     speed: 60,
+     lifeLike: false,
+    cursor: false,
+  });
+  $('.type-it-phone').typeIt({
+     startDelay: 4000,
      speed: 60,
      lifeLike: false,
     cursor: false,
