@@ -3,11 +3,11 @@ $font-color:rgb(247, 243, 243);
 $primary-color:#008ed6;
 $dark-overlay: rgba(0,0,0,0.1);
 $font-size: 30px;
-$font-family: 'typewriter';
+$font-family: 'artdeco';
 
 
 @font-face {
-  font-family: 'typewriter';
+  font-family: 'artdeco';
   // src: url('../fonts/kingthings_trypewriter_2-webfont.woff2') format('woff2'),
   //      url('../fonts/kingthings_trypewriter_2-webfont.woff') format('woff');
   src: url('../fonts/ironick-normal.regular.woff') format('woff');
@@ -24,13 +24,18 @@ html, body{
   overflow-x: hidden;
   max-width: 1080px;
   margin: 0 auto;
+  font-size: .9rem;
   
  
 
 }
 
-.navbar, {
-  font-size: 1.2em;
+.title {
+  font-size: 4rem;
+}
+
+.navbar {
+  font-size: 1.6em;
   background-color: rgba(0,0,0,0.3);
   
   navbar-dark, navbar-nav {
@@ -39,6 +44,10 @@ html, body{
   }
   
 
+}
+
+.navbar-brand {
+  font-size: 2rem;
 }
 
 #home-section{
@@ -73,7 +82,7 @@ html, body{
     }
     .btn{
       opacity: 0.8;
-      font-size:1.5em;
+      font-size: 2.3rem;
     }
     
   }
@@ -146,7 +155,7 @@ html, body{
   
    li{
      list-style: none;
-     font-size: 1.1em;
+     font-size: 2rem;
    }
 }
 

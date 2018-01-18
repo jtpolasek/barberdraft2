@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'typewriter';
+  font-family: 'artdeco';
   src: url("../fonts/ironick-normal.regular.woff") format("woff");
   font-weight: 400;
   font-style: normal; }
@@ -7,17 +7,24 @@
 html, body {
   background: #000;
   color: #f7f3f3;
-  font-family: "typewriter";
+  font-family: "artdeco";
   overflow-x: hidden;
   max-width: 1080px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  font-size: .9rem; }
+
+.title {
+  font-size: 4rem; }
 
 .navbar {
-  font-size: 1.2em;
+  font-size: 1.6em;
   background-color: rgba(0, 0, 0, 0.3); }
   .navbar navbar-dark, .navbar navbar-nav {
     font-size: 1.1em;
     color: #fff; }
+
+.navbar-brand {
+  font-size: 2rem; }
 
 #home-section {
   background-image: url("../img/razor.jpg");
@@ -42,7 +49,7 @@ html, body {
       margin-top: 20vh; }
     #home-section .home-inner .btn {
       opacity: 0.8;
-      font-size: 1.5em; }
+      font-size: 2.3rem; }
   #home-section .address-box {
     padding-bottom: 25px; }
 
@@ -98,7 +105,7 @@ html, body {
   padding-left: 10vw; }
   .menu-list li {
     list-style: none;
-    font-size: 1.1em; }
+    font-size: 2rem; }
 
 #about-img {
   box-shadow: 1px 5px 5px 1px rgba(0, 0, 0, 0.5); }
