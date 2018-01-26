@@ -92,9 +92,14 @@ html, body{
   }
 }
 
+.btn-light{
+  padding-top: 1.2rem;
+}
+
 .card-one {
-  background-image: url('../img/paper_3.png');
- 
+  // background-image: url('../img/paper_3.png');
+ background-color: #000;
+ color:white;
 }
 
 
@@ -145,8 +150,9 @@ html, body{
 }
 
 #menu-head-section{
-  background-image: url('../img/paper_3.png');
-  color: rgba(41, 39, 39, 0.86);
+  // background-image: url('../img/paper_3.png');
+ // background: #fff;
+  //color: rgba(41, 39, 39, 0.86);
 }
 
 .menu-list{
@@ -191,8 +197,8 @@ html, body{
 }
 
 #about-head-section{
-  background-image: url('../img/paper_3.png');
-  color: rgba(41, 39, 39, 0.86);
+  // background-image: url('../img/paper_3.png');
+ // color: rgba(41, 39, 39, 0.86);
 }
 
 #quote2-heading{
@@ -242,12 +248,14 @@ html, body{
 }
 
 #location-head-section{
-  background-image: url('../img/paper_3.png');
-  color: rgba(41, 39, 39, 0.86);
+  background:rgb(240, 237, 237);
+ // background-image: url('../img/paper_3.png');
+  color: #000;
 }
 
 #main-footer {
   background-color: #000;
+  padding-top: 1rem;
 }
 
 

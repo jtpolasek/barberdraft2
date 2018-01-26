@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'artdeco';
-  src: url("../fonts/ironick-normal.regular.woff") format("woff");
+  src: url("../fonts/Noir_medium.woff") format("woff");
   font-weight: 400;
   font-style: normal; }
 
@@ -53,8 +53,12 @@ html, body {
   #home-section .address-box {
     padding-bottom: 25px; }
 
+.btn-light {
+  padding-top: 1.2rem; }
+
 .card-one {
-  background-image: url("../img/paper_3.png"); }
+  background-color: #000;
+  color: white; }
 
 .emerge-quote {
   text-align: center;
@@ -96,10 +100,6 @@ html, body {
 #hero-title {
   min-width: 300px; }
 
-#menu-head-section {
-  background-image: url("../img/paper_3.png");
-  color: rgba(41, 39, 39, 0.86); }
-
 .menu-list {
   padding-top: 10px;
   padding-left: 10vw; }
@@ -129,10 +129,6 @@ html, body {
   bottom: 0;
   width: 100%;
   max-height: 450px; }
-
-#about-head-section {
-  background-image: url("../img/paper_3.png");
-  color: rgba(41, 39, 39, 0.86); }
 
 #quote2-heading {
   position: relative;
@@ -174,8 +170,9 @@ html, body {
   min-height: 600px; }
 
 #location-head-section {
-  background-image: url("../img/paper_3.png");
-  color: rgba(41, 39, 39, 0.86); }
+  background: #f0eded;
+  color: #000; }
 
 #main-footer {
-  background-color: #000; }
+  background-color: #000;
+  padding-top: 1rem; }
