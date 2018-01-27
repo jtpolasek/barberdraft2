@@ -1,3 +1,31 @@
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem); }
+  80% {
+    transform: translateX(1rem); }
+  100% {
+    opacity: 1;
+    transform: translateX(0); } }
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem); }
+  80% {
+    transform: translateX(-1rem); }
+  100% {
+    opacity: 1;
+    transform: translateX(0); } }
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem); }
+  100% {
+    opacity: .8;
+    transform: translateY(0); } }
+
 @font-face {
   font-family: 'artdeco';
   src: url("../fonts/Noir_medium.woff") format("woff");
@@ -16,6 +44,18 @@ html, body {
 .title {
   font-size: 4rem; }
 
+.header__name {
+  animation: moveInRight 2s ease-out; }
+
+.header__phone {
+  animation: moveInRight 2s ease-out; }
+
+.header__address {
+  animation: moveInLeft 2s ease-out; }
+
+.header__btn {
+  animation: moveInBottom 2s ease-out; }
+
 .navbar {
   font-size: 1.6em;
   background-color: rgba(0, 0, 0, 0.3); }
@@ -24,7 +64,7 @@ html, body {
     color: #fff; }
 
 .navbar-brand {
-  font-size: 2rem; }
+  font-size: 1.8rem; }
 
 #home-section {
   background-image: url("../img/razor.jpg");
@@ -49,7 +89,8 @@ html, body {
       margin-top: 20vh; }
     #home-section .home-inner .btn {
       opacity: 0.8;
-      font-size: 2.3rem; }
+      font-size: 2.3rem;
+      animation: moveInBottom 1s ease-out; }
   #home-section .address-box {
     padding-bottom: 25px; }
 
@@ -100,12 +141,21 @@ html, body {
 #hero-title {
   min-width: 300px; }
 
+.menu h1 {
+  font-size: 2.7rem; }
+  @media only screen and (min-width: 992px) {
+    .menu h1 {
+      font-size: 5rem; } }
+
 .menu-list {
   padding-top: 10px;
   padding-left: 10vw; }
   .menu-list li {
     list-style: none;
-    font-size: 2rem; }
+    font-size: 1.7rem; }
+    @media only screen and (min-width: 992px) {
+      .menu-list li {
+        font-size: 2.5rem; } }
 
 #about-img {
   box-shadow: 1px 5px 5px 1px rgba(0, 0, 0, 0.5); }

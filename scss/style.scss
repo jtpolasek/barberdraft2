@@ -1,9 +1,17 @@
+@import "media";
+@import "animations";
+
+
+
 $bg-color: #000;
 $font-color:rgb(247, 243, 243);
 $primary-color:#008ed6;
 $dark-overlay: rgba(0,0,0,0.1);
 $font-size: 30px;
 $font-family: 'artdeco';
+
+@import "media";
+
 
 
 @font-face {
@@ -34,6 +42,27 @@ html, body{
   font-size: 4rem;
 }
 
+.header {
+
+  &__name {
+    animation: moveInRight 2s ease-out;
+  }
+
+  &__phone{
+    animation: moveInRight 2s ease-out;
+  }
+
+  &__address{
+
+    animation: moveInLeft 2s ease-out;
+  }
+
+  &__btn{
+    animation: moveInBottom 2s ease-out;
+  }
+}
+
+
 .navbar {
   font-size: 1.6em;
   background-color: rgba(0,0,0,0.3);
@@ -47,7 +76,7 @@ html, body{
 }
 
 .navbar-brand {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 #home-section{
@@ -83,6 +112,7 @@ html, body{
     .btn{
       opacity: 0.8;
       font-size: 2.3rem;
+      animation: moveInBottom 1s ease-out;
     }
     
   }
@@ -149,6 +179,12 @@ html, body{
   min-width: 300px;
 }
 
+.menu h1{
+  font-size: 2.7rem;
+  @include respond(desktop){
+    font-size: 5rem;
+  }
+}
 #menu-head-section{
   // background-image: url('../img/paper_3.png');
  // background: #fff;
@@ -161,7 +197,10 @@ html, body{
   
    li{
      list-style: none;
-     font-size: 2rem;
+     font-size: 1.7rem;
+     @include respond(desktop){
+      font-size: 2.5rem;
+    }
    }
 }
 
