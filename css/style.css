@@ -33,7 +33,7 @@
   font-style: normal; }
 
 html, body {
-  background: #000;
+  background: #131010;
   color: #f7f3f3;
   font-family: "artdeco";
   overflow-x: hidden;
@@ -98,14 +98,14 @@ html, body {
   padding-top: 1.2rem; }
 
 .card-one {
-  background-color: #000;
+  background-color: #131010;
   color: white; }
 
 .emerge-quote {
   text-align: center;
   margin: 0 auto;
   width: 100%;
-  color: #000;
+  color: #131010;
   box-shadow: 1px 5px 5px 1px rgba(0, 0, 0, 0.3); }
 
 .fa {
@@ -150,6 +150,9 @@ html, body {
 .menu-list {
   padding-top: 10px;
   padding-left: 10vw; }
+  @media only screen and (min-width: 992px) {
+    .menu-list {
+      padding-left: 0; } }
   .menu-list li {
     list-style: none;
     font-size: 1.7rem; }
@@ -219,10 +222,16 @@ html, body {
   width: 100%;
   min-height: 600px; }
 
+.sample-work {
+  padding-top: 2rem; }
+  @media only screen and (min-width: 576px) {
+    .sample-work {
+      padding-top: 16px; } }
+
 #location-head-section {
   background: #f0eded;
-  color: #000; }
+  color: #131010; }
 
 #main-footer {
-  background-color: #000;
+  background-color: #131010;
   padding-top: 1rem; }

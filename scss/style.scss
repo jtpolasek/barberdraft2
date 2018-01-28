@@ -3,7 +3,7 @@
 
 
 
-$bg-color: #000;
+$bg-color: #131010;
 $font-color:rgb(247, 243, 243);
 $primary-color:#008ed6;
 $dark-overlay: rgba(0,0,0,0.1);
@@ -128,7 +128,7 @@ html, body{
 
 .card-one {
   // background-image: url('../img/paper_3.png');
- background-color: #000;
+ background-color: $bg-color;
  color:white;
 }
 
@@ -181,6 +181,7 @@ html, body{
 
 .menu h1{
   font-size: 2.7rem;
+
   @include respond(desktop){
     font-size: 5rem;
   }
@@ -194,10 +195,15 @@ html, body{
 .menu-list{
   padding-top:10px;
   padding-left:10vw;
+
+  @include respond(desktop){
+    padding-left: 0;
+  }
   
    li{
      list-style: none;
      font-size: 1.7rem;
+
      @include respond(desktop){
       font-size: 2.5rem;
     }
@@ -286,14 +292,21 @@ html, body{
   min-height: 600px;
 }
 
+.sample-work {
+ padding-top: 2rem;
+  @include respond(phone){
+    padding-top: 16px;
+  }
+}
+
 #location-head-section{
   background:rgb(240, 237, 237);
  // background-image: url('../img/paper_3.png');
-  color: #000;
+  color: $bg-color;
 }
 
 #main-footer {
-  background-color: #000;
+  background-color: $bg-color;
   padding-top: 1rem;
 }
 
